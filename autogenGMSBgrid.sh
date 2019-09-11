@@ -19,7 +19,7 @@ outdir="Configuration/GenProduction/python/ThirteenTeV/GMSB"
 mkdir -p "${outdir}"
 
 ## loop over L, ctau: produce python configs
-for lambda in 100 150 200 250 300 350 400 500
+for lambda in 100 150 200 250 300 350 400 450 500
 do
     for ctau in 10 50 100 200 400 600 800 1000 1200 10000
     do
